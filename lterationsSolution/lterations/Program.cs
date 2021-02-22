@@ -28,6 +28,10 @@ namespace lterations
                 Console.Write("Enter a number:\t");
                 inputTemp = Console.ReadLine();
                 aNumber = int.Parse(inputTemp);
+                if(aNumber != 0)
+                {
+                    Console.WriteLine($"You entered the number");
+                }
 
             } while (aNumber != 0);
 
